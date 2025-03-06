@@ -1,8 +1,8 @@
 # Guidelines for the choice of the baseline in XAI attribution methods
 ### Authors: Cristian Morasso*, Giorgio Dolci*', Ilaria Boscolo Galazzo*, Sergey M. Plis'' Gloria Menegaz*
-*Dept. Engineering for Innovation Medicine, University of Verona.
-'Dept. Computer Science, University of Verona.
-'' Georgia State University and Trends Center
+*Dept. Engineering for Innovation Medicine, University of Verona.<br>
+'Dept. Computer Science, University of Verona.<br>
+'' Georgia State University and Trends Center.
 
 
 ## Abstract
@@ -16,11 +16,11 @@ This repo contains the code of IBS algorithm and the source code for the tests p
 ## File structures 
 * *deepview*: directory that contains DeepView files
 * *splinecam*: directory that contains SplineCam files
-* *few_features.ipynb*: python notebook that contains the code to run experiments on *Custom, Spiral* and *Three* datasets.
-* *few_features_GPU.ipynb*: same as the previous file but this one contains the IBS version that allows to use GPU to run the algorithm.
-* *image_case.ipynb*: python notebook that contains the code to run experiments on *Image* dataset.
-* *utils_train.py*; python file that contains the code to run training and validation on one or more output neurons. 
-
+* *scripts/few_features.ipynb*: python notebook that contains the code to run experiments on *Custom, Spiral* and *Three* datasets.
+* *scripts/few_features_GPU.ipynb*: same as the previous file but this one contains the IBS version that allows to use GPU to run the algorithm.
+* *scripts/image_case.ipynb*: python notebook that contains the code to run experiments on *Image* dataset.
+* *src/utils_train.py*: python file that contains the code to run training and validation on one or more output neurons. 
+* *src/IBS.py*: python file that contains the code for `IBS` and `IBS_gpu`
 ## Algorithm Usage
 
 The algorithm computes a sample of the inner boundary, to obtain an optimal baseline is suggested to run the algorithm with different starting points in order to compute the entire inner boundary.
