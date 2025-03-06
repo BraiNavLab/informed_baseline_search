@@ -1,8 +1,8 @@
 # Guidelines for the choice of the baseline in XAI attribution methods
-### Authors: Cristian Morasso*, Giorgio Dolci*', Ilaria Boscolo Galazzo*, Sergey M. Plis'' Gloria Menegaz*
+### Authors: Cristian Morasso*, Giorgio Dolci*', Ilaria Boscolo Galazzo*, Sergey M. Plis'', Gloria Menegaz*
 *Dept. Engineering for Innovation Medicine, University of Verona.<br>
 'Dept. Computer Science, University of Verona.<br>
-'' Georgia State University and Trends Center.
+'' Georgia State University and TReNDS Center.
 
 
 ## Abstract
