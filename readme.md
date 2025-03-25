@@ -11,7 +11,7 @@ To this end, the emerging field of eXplainable AI develops techniques to probe s
 Among the many facets of this issue, this paper focuses on baseline attribution methods, aiming at deriving a feature attribution map at the network input relying on a "neutral" stimulus usually called "baseline".
 The choice of the baseline is crucial as it determines the explanation of the network behavior. In this framework, this paper has the twofold goal of shedding light on the implications of the choice of the baseline and providing a simple yet effective method for identifying the best baseline for the task. To achieve this, we propose a decision boundary sampling method, since the baseline, by definition, lies on the decision boundary, which naturally becomes the search domain. Experiments are performed on synthetic examples and validated relying on state-of-the-art methods. Despite being limited to the experimental scope, this contribution is relevant as it offers clear guidelines and a simple proxy for baseline selection, reducing ambiguity and enhancing deep models' reliability and trust.
 <hr>
-#IBS algorithm demo
+# IBS algorithm demo
 
 ![IBS demo](imgs/IBS_anim_tit.gif)
 
