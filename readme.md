@@ -106,3 +106,16 @@ embedding = reducer.transform(np.concatenate([all_data, bs_arr]))
 If you are interested most in compute the attributions for a given sample we suggest to extract the baseline that lies in the orthogonal projection of the sample to the Decision boundary segment, if available, otherwise your best option is compute the closest baseline to the sample that you want to investigate.
 
 In addition is possible to compute the class attributions, computing the attributions for each data point of a specific class.
+
+# Citation
+```bibtex
+@misc{morasso2025guidelineschoicebaselinexai,
+      title={Guidelines For The Choice Of The Baseline in XAI Attribution Methods}, 
+      author={Cristian Morasso and Giorgio Dolci and Ilaria Boscolo Galazzo and Sergey M. Plis and Gloria Menegaz},
+      year={2025},
+      eprint={2503.19813},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2503.19813}, 
+}
+```
