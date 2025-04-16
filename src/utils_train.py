@@ -21,7 +21,7 @@ def train_step(model:torch.nn.Module,
         # Forward pass
         y_pred = model(X)
         # Calculate  and accumulate loss
-        loss = loss_fn(y_pred,y)
+        loss = loss_fn(y_pred,y.view(-1).long())
         train_loss += loss.item()
         # Optimizer zero grad
         optimizer.zero_grad()
@@ -58,7 +58,7 @@ def val_step(model:torch.nn.Module,
             # Forward pass
             val_pred_logits = model(X)
             # Calculate and accumulate loss
-            loss = loss_fn(val_pred_logits, y)
+            loss = loss_fn(val_pred_logits, y.view(-1).long())
             val_loss += loss.item()
             # Calculate and accumulate accuracy
             val_pred_labels = val_pred_logits.argmax(dim=1)
